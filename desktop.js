@@ -2319,10 +2319,10 @@ function opneLink(link, isCrossDomain = false) {
   if (isCrossDomain) {
     switch (link) {
       case "Twitter":
-        window.open("https://x.com/SBOS_DAPP");
+        window.open("https://twitter.com/bcat_dapp");
         break;
       case "Telegram":
-        window.open("https://t.me/SBOS_SOLANA");
+        window.open("https://t.me/BCAT_DAPP");
         break;
       case "DextTools":
         window.open(
@@ -2362,6 +2362,9 @@ function opneLink(link, isCrossDomain = false) {
         break;
       case "raydium":
         window.open("https://raydium.io/");
+        break;
+      case "pump":
+        window.open("https://pump.fun");
         break;
 
       default:
